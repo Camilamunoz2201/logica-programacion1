@@ -24,5 +24,7 @@ while (numeroUsuario !== numeroSecreto) {
         }
 
         numereIntentos = numereIntentos + 1;
+        // numereIntentos++;
+        // numereIntentos += numeroSecreto; -> numereIntentos = numereIntentos + numeroSecreto;
     }
 }
